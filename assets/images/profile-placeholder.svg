@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">A neutral placeholder illustration for the research professional portrait.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#eef3f8"/>
+      <stop offset="100%" stop-color="#dfeaf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="350" r="165" fill="#b7c8d9"/>
+  <path d="M240 830c20-135 112-220 160-220s140 85 160 220H240z" fill="#a1b6cf"/>
+  <path d="M305 315c0-80 48-136 95-136s95 56 95 136v42c0 80-48 136-95 136s-95-56-95-136v-42z" fill="#122c42" opacity="0.9"/>
+  <circle cx="360" cy="345" r="10" fill="#edf3f8"/>
+  <circle cx="440" cy="345" r="10" fill="#edf3f8"/>
+  <path d="M350 420c28 24 72 24 100 0" fill="none" stroke="#edf3f8" stroke-width="10" stroke-linecap="round"/>
+  <rect x="202" y="820" width="396" height="86" rx="18" fill="#0b1d2d" opacity="0.9"/>
+  <text x="400" y="875" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#ffffff" letter-spacing="6">PORTRAIT PLACEHOLDER</text>
+</svg>
