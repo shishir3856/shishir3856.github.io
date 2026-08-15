@@ -1160,3 +1160,120 @@ h1, h2, h3, h4, .serif {
     padding: 22px 18px;
   }
 }
+
+@media (max-width: 768px) {
+  .timeline-list,
+  .timeline-list li,
+  .experience-entry,
+  .experience-logo,
+  .experience-content {
+    box-sizing: border-box;
+  }
+
+  .timeline-list {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .timeline-list li {
+    border-left: none !important;
+    padding-left: 0 !important;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .experience-entry {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    align-items: stretch !important;
+  }
+
+  .experience-logo {
+    width: 100% !important;
+    max-width: 180px !important;
+    height: 120px !important;
+    margin: 0 auto;
+    padding: 14px;
+  }
+
+  .experience-content {
+    border-left: none !important;
+    border-top: 1px solid rgba(11,29,45,0.18);
+    padding-left: 0 !important;
+    padding-top: 14px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .meta-line {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .responsibility-list li {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 767px) {
+  html,
+  body,
+  .section,
+  .section .container,
+  .glance-grid,
+  .glance-card {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  .section .container,
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .glance-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-auto-flow: row !important;
+    gap: 16px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin-top: 18px !important;
+  }
+
+  .glance-card {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding: 18px 16px !important;
+    flex-basis: auto !important;
+    flex: 0 0 100% !important;
+  }
+
+  .glance-card h3,
+  .glance-card p {
+    overflow-wrap: anywhere !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+  }
+}
