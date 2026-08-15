@@ -1,0 +1,22 @@
+{
+  "name": "shishir3856.github.io",
+  "version": "1.0.0",
+  "description": "This repository contains a static portfolio website for Shahriar Kabir Shishir, designed for academic, research, and governance-focused professional positioning.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shishir3856/shishir3856.github.io.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shishir3856/shishir3856.github.io/issues"
+  },
+  "homepage": "https://github.com/shishir3856/shishir3856.github.io#readme",
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}
